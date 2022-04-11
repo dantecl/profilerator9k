@@ -3,7 +3,7 @@ name: 'Profilerator 9000(tm) 🗑️'
 # Run every hour on the hour
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
